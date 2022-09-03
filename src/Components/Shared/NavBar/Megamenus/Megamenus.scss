@@ -1,0 +1,18 @@
+.navbar .megame-nu  {
+    position: fixed;
+    background:green;
+    top: 4.50vw;
+    overflow: hidden;
+    display: none;
+    justify-content: space-between;
+    padding: max(16px, 1.0vw);
+    border-radius: max(8px, 0.6vw );
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    @media (max-width:1250px){
+            top: 5vw;
+        }
+    .About-links h5{
+        color:blue;
+    }
+
+}

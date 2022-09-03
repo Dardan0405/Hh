@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    padding:10px 5%;
+    background: #fff;
+    border:1px solid red;
+    width: 100%;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    align-items:center;
+    .nav-link{
+        
+        position: relative;
+        margin:0 max(2.5px, 0.7vw);
+    }
+    & :hover
+      {
+        .navbar-megamenu{
+            display: flex;
+        }
+        .inner-nav-link svg{
+            transform: rotate(-180deg);
+            -webkit-transform: rotate(-180deg);
+        }
+        
+      }
+    }
+    
